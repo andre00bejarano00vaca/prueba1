@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .miDiv{
+            color: beige;
+            /* border-style: solid; */
+            /* border-color: blue; */
+            /* border-width: 10px; */
+            /* border color solo se puede poner cuatro colores funciona en direccion de las manecillas del reloj */
+            border-color: aquamarine azure yellow green;
+            /* border es una abreviacion de border style y border width */
+            border:5px solid;
+            /* margin top nos ayuda a ubicar el texto */
+            margin-top: 50px;
+            margin-bottom: 80px;
+            margin-right: 100px;
+            margin-left: 100px;
+            /* padding nos ayuda a alejar el borde del div de todo el texto */
+            padding-bottom: 30px;
+            padding-top: 50px;
+            /* una forma de abreviar margin y padding */
+            margin: 50px 30px 50px ;
+            padding: 30px 80px 40px 80px;
+        }
+    </style>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>cafeteria</h1>
+   <p style="background-color:red;color:white;">Primer parrafo</p>
+   <p>segundo parrafo</p>
+   <p>tercer parrafo</p>
+   <img
+        width="50"
+        src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FmZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+   /> 
+   <img
+        src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FmZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+   />
+   <a href="https://htmlreference.io">HTML Reference</a>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nemo a maiores, officiis adipisci molestiae tempora vel quia! Iure ipsam, adipisci exercitationem nulla et magnam ex dicta ea magni vitae.</p>
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio perferendis corrupti 
+    <hr>
+    eveniet soluta reiciendis facere dolorum animi libero dignissimos aspernatur iste laboriosam labore odit, accusantium ex error? Natus, molestiae maiores?</p>
+   <!--br nos ayuda a saltar de linea-->
+    <p>Lorem <br>ipsum dolor sit amet consectetur adipisicing elit. Eos nemo a maiores, officiis adipisci molestiae tempora vel quia! Iure ipsam, adipisci exercitationem nulla et magnam ex dicta ea magni vitae.</p>
+   <!--pre nos ayuda a escribir respetando espacion a contrario de lo que hace p-->
+   <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    nombre completo
+    hola como estas
+   </pre>
+    Eos nemo a maiores, officiis adipisci molestiae tempora vel quia! Iure ipsam, adipisci exercitationem nulla et magnam ex dicta ea magni vitae.</p>
+   <!--formatos-->
+   <p>
+    <b>lorem</b> ipsum dolor sit amet consectetur adipisicing elit. Corporis, maiores distinctio quas sapiente, aperiam possimus accusantium eaque qui neque, quos ab nam quia? Nam fugiat dolorum perferendis magni accusantium aliquid?
+   </p>
+   <!--strong nos ayuda a indicarle al nabegador que es un texto importante para que sea mas facil su busqueda desde los navegadores con las palabras clabes-->
+   <p><strong>Lorem ipsum dolor sit amet</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quam rem facilis voluptas, non minus porro modi hic, blanditiis sunt itaque unde saepe culpa vel voluptatibus vitae tempore, eveniet deserunt?</p>
+   <p>Lorem ipsum <i>dolor</i> sit amet consectetur adipisicing elit. A harum nam doloremque molestias blanditiis necessitatibus laborum nihil modi, eligendi voluptate similique suscipit, provident incidunt sequi totam doloribus molestiae tempora magni.</p>
+   <!--em nos ayuda a enfatizar la palabra para el navegador no como el i que solo le cambia el tipo de letra al texto seleccionado-->
+   <p>Lorem, <em>ipsum dolor sit amet consectetur</em>ipsum dolor sit amet consectetur adipisicing elit. Rerum distinctio voluptatibus dolorem natus, ipsum molestias qui nesciunt obcaecati eveniet dolor voluptatem pariatur itaque minima ipsam repellat reiciendis molestiae libero a!</p>
+   <p><mark>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt est et iure magnam, nisi temporibus neque corrupti deleniti hic quasi,
+    <hr>
+    <!--hr interrumpe el marcado de mark y divide el parrafo en dos-->
+    recusandae voluptates! Pariatur fugit quisquam officiis mollitia, non sequi molestiae!</mark></p>
+    <p style="color:aqua">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, molestias eaque unde consectetur alias iure perspiciatis dicta, quia doloribus eius et vitae eos ipsum consequuntur nam, veniam cumque nobis nulla!</p>
+    <a href="https://github.com/andre00bejarano00vaca/proyectodemocursoprework">github</a>
+    <!--atributo alt nos ayuda a poner un texto por si la imagen no carga o tiene algun problema. le mostrara al usuario un texto -->
+    <img src="https://images.pexels.com/photos/13623557/pexels-photo-13623557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="fotografia de rostro">
+    <div class="miDiv">
+        <h2>esta es la cabecera de mi elemento div</h2>
+        <p>este es el texto de mi div</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et neque nesciunt sequi illo. Et placeat aspernatur ullam hic aperiam voluptas, eligendi nostrum doloribus velit quae, optio, similique ex maxime quod!</p>
+    </div>
+    <!--title nos ayuda a mostrar un mensaje cuando el cursor este encima del link-->
+    <a href="https://www.facebook.com/" title="link para ir a facebook">link</a>
+    <!--font family nos ayuda a cambiar la fuete de texto. empieza con courier new y si no agarra con ese sigue con los que estan nombrados hata que agarre uno-->
+    <p style="background-color: black ;color:aliceblue;text-align:justify;font-family:'Courier New', Courier, monospace">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet expedita rem cupiditate rerum perspiciatis ex adipisci accusantium voluptates dolores corrupti, quos fuga aliquam accusamus, doloribus est amet optio necessitatibus animi.</p>
+</body>
+</html>

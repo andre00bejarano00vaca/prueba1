@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        div{
+            background-color: red;
+        }
+        .titulo{
+            background-color: white;
+        }
+        #titulo2{
+            background-color: pink;
+        }
+        a[href="https://htmlcolorcodes.com/"]{
+            color: brown;
+        }
+    </style>
+    <div class="titulo">Emprendimiento</div>
+    <div id="titulo2">pizas veganas</div>
+    <a href="https://htmlcolorcodes.com/"> que hara esto?</a>
+    <h1>Emprendimiento de pizza</h1>
+    <form action="">
+    <!--tama;o de la piza-->
+    <fieldset>
+        <legend>Tamaño de la pizza</legend>
+        <p>
+            <leable>
+                <input type="radio" name="size">personal</input>
+            </leable>
+        </p>
+        <p>
+            <leable>
+                <input type="radio" name="size">mediana</input>
+            </leable>
+        </p>
+        <p>
+            <leable>
+                <input type="radio" name="size">familiar</input>
+            </leable>
+        </p>
+    </fieldset>
+    <br/>
+    <legend class="titulo">menu</legend>
+    <p><label><input type="checkbox">capuchino</label></p>
+    <p><label><input type="checkbox">frapuchino</label></p>
+    <p><label><input type="checkbox">cafe late</label></p>
+    <p><label><input type="checkbox">macchiato</label></p>
+    <fieldset>
+        <legend class="titulo">fecha y hora de entrega</legend>
+        <p><label>fecha de entrega:<input type="date"></label></p>
+        <p><label>Hora:<input type="time"></label></p>
+    </fieldset>
+    <input type="submit">
+    </form>
+</body>
+</html>

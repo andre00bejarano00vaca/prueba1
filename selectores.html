@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* *{ */
+        /* margin: 0; */
+        /* padding: 0; */
+        /* el * es un selector universal que afecta a toda la pagina en este caso le esta quitando el margen y el padding */
+    /* } */
+    p{color: blue;}
+    h3{color: red;}
+    .parrafo1{
+        color: green;
+    }
+    #parrafo2{
+        color: yellow;
+    }
+    div p{
+        color: green;
+    }
+    .selectorhijo>p{ /*se utiliza >p para que el cambio solo se aplique en p no importa si tienes otros texto (h1) si no es p los demas seran ignorados// en caso de que se le quite el > a la p el cambio aplicara a todas las p que sean clases nietas y hijas, en resumen abarca mas*/
+        color: aqua;
+    }
+    .selectorhijo>h2{ /*se utiliza >h2 para que el cambio solo se aplique en p no importa si tienes otros texto (h1) si no es h2 los demas seran ignorados*/
+        color: rebeccapurple;
+    }
+    div.combination{
+        color: brown;
+    }
+    footer.footer h3{
+        background-color: green;
+    }
+</style>
+<body>
+    <h3>PARRAFO</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia ipsa, quaerat veniam commodi provident, error iusto enim eius perspiciatis animi neque eveniet asperiores molestiae libero velit quam, reiciendis quae?</p>
+    <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia ipsa, quaerat veniam commodi provident, error iusto enim eius perspiciatis animi neque eveniet asperiores molestiae libero velit quam, reiciendis quae?</p>
+    <p id="parrafo2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia ipsa, quaerat veniam commodi provident, error iusto enim eius perspiciatis animi neque eveniet asperiores molestiae libero velit quam, reiciendis quae?</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia ipsa, quaerat veniam commodi provident, error iusto enim eius perspiciatis animi neque eveniet asperiores molestiae libero velit quam, reiciendis quae?</p>
+    </div>   
+    <div class="selectorhijo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia ipsa, quaerat veniam commodi provident, error iusto enim eius perspiciatis animi neque eveniet asperiores molestiae libero velit quam, reiciendis quae?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia ipsa, quaerat veniam commodi provident, error iusto enim eius perspiciatis animi neque eveniet asperiores molestiae libero velit quam, reiciendis quae?</p>
+        <h2>ejemplo</h2>   
+        <div>
+            <h2>ejemplo</h2>
+        </div>
+    </div> 
+    <div class="combination">
+        <h2>hola</h2>
+    </div>
+    <footer class="footer">
+        <h3>hola h3</h3>
+    </footer>
+</body>
+</html>
